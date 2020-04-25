@@ -9,11 +9,7 @@ SRC= surfImp.cpp
 
 
 $(EXEC): $(SRC)
-	$(CC) -g -Wall -std=c++11 -o $(EXEC) $(SRC) $(lIBOPENGL)
-
-all: 
-	clean 
-	$(EXEC)
+	$(CC) $(GFLAGS) -o $(EXEC) $(SRC) $(lIBOPENGL)
 
 clean:
 	rm -rf *.o

@@ -582,18 +582,18 @@ void createMenu()
     glutAddMenuEntry("Wyvill", SUB_MENU_Wyvil);
 
     int menuDensite = glutCreateMenu(menuFoncDensite);
-    glutAddMenuEntry("Melange", SUB_MENU_Melange);
+    glutAddMenuEntry("Merge", SUB_MENU_Melange);
     glutAddMenuEntry("Union", SUB_MENU_Union);
     glutAddMenuEntry("Intersection", SUB_MENU_Sub);
 
     glutCreateMenu(mainMenu);
-    glutAddMenuEntry("Ajouter un point ", MENU_AddPoint);
-    glutAddSubMenu("Fonctions de potentiel ", menuPotentiel);
-    glutAddSubMenu("Fonctions de densite ", menuDensite);
-    glutAddMenuEntry("Augmenter Ri (+5) ", MENU_INCREASE_Ri);
-    glutAddMenuEntry("Abaisser Ri (-5) ", MENU_DECREASE_Ri);
-    glutAddMenuEntry("Augmenter T (+0.1) ", MENU_INCREASE_T);
-    glutAddMenuEntry("Abaisser T (-0.1) ", MENU_DECREASE_T);
-    glutAddMenuEntry("Fermer la fenetre ", MENU_EXIT);
+    glutAddMenuEntry("Add point ", MENU_AddPoint);
+    glutAddSubMenu("Potential functions ", menuPotentiel);
+    glutAddSubMenu("Density functions ", menuDensite);
+    glutAddMenuEntry("Increase Ri (+5) ", MENU_INCREASE_Ri);
+    glutAddMenuEntry("Decrease Ri (-5) ", MENU_DECREASE_Ri);
+    glutAddMenuEntry("Increase T (+0.1) ", MENU_INCREASE_T);
+    glutAddMenuEntry("Decrease T (-0.1) ", MENU_DECREASE_T);
+    glutAddMenuEntry("Quite ", MENU_EXIT);
     glutAttachMenu(GLUT_RIGHT_BUTTON);
 }

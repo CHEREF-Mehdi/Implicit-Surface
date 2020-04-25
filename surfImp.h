@@ -6,8 +6,8 @@
 
 using namespace std;
 
-#define WIDTH_GRILLE 200  //largeur du grille
-#define HEIGHT_GRILLE 150 //hauteur du grille
+#define WIDTH_GRILLE 200  //grid width
+#define HEIGHT_GRILLE 150 //grid height
 
 const int NMAX = 100;
 float T = 0.7, Ri = 100;
