@@ -594,6 +594,6 @@ void createMenu()
     glutAddMenuEntry("Decrease Ri (-5) ", MENU_DECREASE_Ri);
     glutAddMenuEntry("Increase T (+0.1) ", MENU_INCREASE_T);
     glutAddMenuEntry("Decrease T (-0.1) ", MENU_DECREASE_T);
-    glutAddMenuEntry("Quite ", MENU_EXIT);
+    glutAddMenuEntry("Exit ", MENU_EXIT);
     glutAttachMenu(GLUT_RIGHT_BUTTON);
 }
